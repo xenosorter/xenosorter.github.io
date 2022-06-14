@@ -11,6 +11,7 @@ dataSet[dataSetVersion].options = [
       { name: "Playable", key: "playable" },
       { name: "Non-Playable", key: "nonplayable" },
       { name: "Antagonist", key: "antagonist" },
+      { name: "Blade", key: "blade" },
     ]
   },
   {
@@ -29,12 +30,12 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
-    name: "Filter Spoilers",
+    name: "Filter out Spoilers?",
     key: "spoiler",
     tooltip: "Check this to restrict spoilers."
   },
   {
-    name: "Filter Duplicates",
+    name: "Filter out Duplicates?",
     key: "duplicate",
     tooltip: "Check this to restrict duplicates."
   }
