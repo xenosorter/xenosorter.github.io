@@ -29,12 +29,12 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
-    name: "Filter Spoilers",
+    name: "Filter out Spoilers",
     key: "spoiler",
     tooltip: "Check this to restrict spoilers."
   },
   {
-    name: "Filter Duplicates",
+    name: "Filter out Duplicates",
     key: "duplicate",
     tooltip: "Check this to restrict duplicates."
   }
@@ -333,7 +333,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Pyra",
     img: "XC2-Pyra.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -341,7 +341,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Mythra",
     img: "XC2-Mythra.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -349,7 +349,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Pneuma",
     img: "XC2-Pneuma.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"],
       spoiler: true
     }
@@ -358,7 +358,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Roc",
     img: "XC2-Roc.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -366,7 +366,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Blade Nia",
     img: "XC2-Blade Nia.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"],
       spoiler: true
     }
@@ -375,7 +375,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Dromarch",
     img: "XC2-Dromarch.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -383,7 +383,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Poppi",
     img: "XC2-Poppi.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -391,7 +391,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Poppi QT",
     img: "XC2-Poppi QT.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"],
       duplicate: true
     }
@@ -400,7 +400,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Poppi QTpi",
     img: "XC2-Poppi QTpi.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"],
       duplicate: true
     }
@@ -409,7 +409,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Brighid",
     img: "XC2-Brighid.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -417,7 +417,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Aegaeon",
     img: "XC2-Aegaeon.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -425,7 +425,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Pandoria",
     img: "XC2-Pandoria.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -433,7 +433,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Adenine",
     img: "XC2-Adenine.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -441,7 +441,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Agate",
     img: "XC2-Agate.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -449,7 +449,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Azami",
     img: "XC2-Azami.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -457,7 +457,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Boreas",
     img: "XC2-Boreas.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -465,7 +465,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Dagas",
     img: "XC2-Dagas.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -473,7 +473,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Dahlia",
     img: "XC2-Dahlia.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -481,7 +481,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Electra",
     img: "XC2-Electra.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -489,7 +489,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Finch",
     img: "XC2-Finch.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -497,7 +497,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Floren",
     img: "XC2-Floren.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -505,7 +505,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Godfrey",
     img: "XC2-Godfrey.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -513,7 +513,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Gorg",
     img: "XC2-Gorg.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -521,7 +521,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Herald",
     img: "XC2-Herald.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -529,7 +529,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kasandra",
     img: "XC2-Kasandra.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -537,7 +537,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kora",
     img: "XC2-Kora.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -545,7 +545,7 @@ dataSet[dataSetVersion].characterData = [
     name: "KOS-MOS",
     img: "XC2-KOS-MOS.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"],
       duplicate: true
     }
@@ -554,7 +554,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Newt",
     img: "XC2-Newt.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -562,7 +562,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Nim",
     img: "XC2-Nim.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -570,7 +570,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Perceval",
     img: "XC2-Perceval.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -578,7 +578,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Perun",
     img: "XC2-Perun.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -586,7 +586,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Praxis",
     img: "XC2-Praxis.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -594,7 +594,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Sheba",
     img: "XC2-Sheba.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -602,7 +602,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Theory",
     img: "XC2-Theory.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -610,7 +610,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Ursula",
     img: "XC2-Ursula.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -618,7 +618,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Vale",
     img: "XC2-Vale.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -626,7 +626,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Vess",
     img: "XC2-Vess.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -634,7 +634,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Wulfric",
     img: "XC2-Wulfric.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -642,7 +642,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Zenobia",
     img: "XC2-Zenobia.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -650,7 +650,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Poppibuster",
     img: "XC2-Poppibuster.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -658,7 +658,7 @@ dataSet[dataSetVersion].characterData = [
     name: "T-elos",
     img: "XC2-T-elos.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"],
       duplicate: true
     }
@@ -667,7 +667,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Shulk (XC2)",
     img: "XC2-Shulk.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"],
       duplicate: true
     }
@@ -676,7 +676,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Fiora (XC2)",
     img: "XC2-Fiora.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"],
       duplicate: true
     }
@@ -685,7 +685,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Akhos",
     img: "XC2-Akhos.png",
     opts: {
-      role: ["playable", "antagonist"],
+      role: ["playable", "antagonist", "blade"],
       series: ["XC2"]
     }
   },
@@ -693,7 +693,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Cressidus",
     img: "XC2-Cressidus.png",
     opts: {
-      role: ["playable", "antagonist"],
+      role: ["playable", "antagonist", "blade"],
       series: ["XC2"]
     }
   },
@@ -701,7 +701,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Mikhail",
     img: "XC2-Mikhail.png",
     opts: {
-      role: ["playable", "antagonist"],
+      role: ["playable", "antagonist", "blade"],
       series: ["XC2"]
     }
   },
@@ -709,7 +709,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Obrona",
     img: "XC2-Obrona.png",
     opts: {
-      role: ["playable", "antagonist"],
+      role: ["playable", "antagonist", "blade"],
       series: ["XC2"]
     }
   },
@@ -717,7 +717,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Patroka",
     img: "XC2-Patroka.png",
     opts: {
-      role: ["playable", "antagonist"],
+      role: ["playable", "antagonist", "blade"],
       series: ["XC2"]
     }
   },
@@ -725,7 +725,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Perdido",
     img: "XC2-Perdido.png",
     opts: {
-      role: ["playable", "antagonist"],
+      role: ["playable", "antagonist", "blade"],
       series: ["XC2"]
     }
   },
@@ -733,7 +733,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Sever",
     img: "XC2-Sever.png",
     opts: {
-      role: ["playable", "antagonist"],
+      role: ["playable", "antagonist", "blade"],
       series: ["XC2"]
     }
   },
@@ -741,7 +741,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Jin (XC2)",
     img: "XC2-Jin.png",
     opts: {
-      role: ["nonplayable", "antagonist"],
+      role: ["nonplayable", "antagonist", "blade"],
       series: ["XC2"]
     }
   },
@@ -749,7 +749,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Malos",
     img: "XC2-Malos.png",
     opts: {
-      role: ["nonplayable", "antagonist"],
+      role: ["nonplayable", "antagonist", "blade"],
       series: ["XC2"]
     }
   },
@@ -765,7 +765,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Corvin",
     img: "XC2-Corvin.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -773,7 +773,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Crossette",
     img: "XC2-Crossette.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["XC2"]
     }
   },
@@ -797,7 +797,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Haze",
     img: "TGC-Haze.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["TGC"]
     }
   },
@@ -821,7 +821,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Minoth",
     img: "TGC-Minoth.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "blade"],
       series: ["TGC"]
     }
   },
