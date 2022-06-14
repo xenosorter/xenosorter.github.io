@@ -1020,7 +1020,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Zanza",
-    img: "TGC-Zanza.png",
+    img: "XC-Zanza.png",
     opts: {
       role: ["nonplayable", "antagonist"],
       series: ["XC"],
