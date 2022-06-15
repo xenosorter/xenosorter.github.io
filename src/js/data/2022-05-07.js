@@ -20,14 +20,13 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to series.",
     checked: true,
     sub: [
-      { name: "Xenogears", key: "XG" },
-      { name: "Xenosaga", key: "XS" },
       { name: "Xenoblade Chronicles", key: "XC" },
       { name: "Future Connected", key: "FC" },
       { name: "Xenoblade Chronicles X", key: "XCX" },
       { name: "Xenoblade Chronicles 2", key: "XC2" },
       { name: "The Golden Country", key: "TGC" },
-      { name: "Xenoblade Chronicles 3", key: "XC3" },
+      { name: "Xenogears", key: "XG" },
+      { name: "Xenosaga", key: "XS" },
     ]
   },
   {
@@ -1468,74 +1467,6 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       role: ["nonplayable", "antagonist"],
       series: ["XS"]
-    }
-  },
-  {
-    name: "Noah",
-    img: "XC3-Noah.png",
-    opts: {
-      role: ["playable"],
-      series: ["XC3"]
-    }
-  },
-  {
-    name: "Mio",
-    img: "XC3-Mio.png",
-    opts: {
-      role: ["playable"],
-      series: ["XC3"]
-    }
-  },
-  {
-    name: "Lanz",
-    img: "XC3-Lanz.png",
-    opts: {
-      role: ["playable"],
-      series: ["XC3"]
-    }
-  },
-  {
-    name: "Sena",
-    img: "XC3-Sena.png",
-    opts: {
-      role: ["playable"],
-      series: ["XC3"]
-    }
-  },
-  {
-    name: "Eunie",
-    img: "XC3-Eunie.png",
-    opts: {
-      role: ["playable"],
-      series: ["XC3"]
-    }
-  },
-  {
-    name: "Taion",
-    img: "XC3-Taion.png",
-    opts: {
-      role: ["playable"],
-      series: ["XC3"]
-    }
-  },
-  {
-    name: "Melia (XC3)",
-    img: "XC3-Melia.png",
-    opts: {
-      role: ["nonplayable"],
-      series: ["XC3"],
-      duplicate: true,
-      spoiler: true
-    }
-  },
-  {
-    name: "Nia (XC3)",
-    img: "XC3-Nia.png",
-    opts: {
-      role: ["nonplayable"],
-      series: ["XC3"],
-      duplicate: true,
-      spoiler: true
     }
   },
 ];
