@@ -286,6 +286,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Rex",
     img: "XC2-Rex.png",
+    overrideimg: "XC2-Rex-Spoiler.png",
     opts: {
       role: ["playable"],
       series: ["XC2"]
