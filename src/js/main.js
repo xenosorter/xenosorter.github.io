@@ -105,6 +105,15 @@ function init() {
 
   document.querySelector('.image.selector').insertAdjacentElement('beforeend', document.createElement('select'));
 
+  /** Initialize random default images. */
+  const directoryPath = 'src/assets/defaults/'
+  const pairs = 3
+  const randomNum = Math.floor(Math.random() * pairs)
+
+  document.querySelector('.left.sort.image').src = directoryPath + "L" + randomNum + ".png";
+  document.querySelector('.right.sort.image').src = directoryPath + "R" + randomNum + ".png";
+
+
   /** Initialize image quantity selector for results. */
   for (let i = 0; i <= 100; i++) {
     const select = document.createElement('option');
