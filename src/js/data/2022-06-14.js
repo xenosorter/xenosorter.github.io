@@ -1520,10 +1520,82 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Valdi",
+    img: "XC3-Valdi.png",
+    opts: {
+      role: ["nonplayable", "hero"],
+      series: ["XC3"],
+    }
+  },
+  {
+    name: "Zeon",
+    img: "XC3-Zeon.png",
+    opts: {
+      role: ["nonplayable", "hero"],
+      series: ["XC3"],
+    }
+  },
+  {
+    name: "Yuzuriha",
+    img: "XC3-Yuzuriha.png",
+    opts: {
+      role: ["nonplayable", "hero"],
+      series: ["XC3"],
+    }
+  },
+  {
+    name: "Riku",
+    img: "XC3-Riku.png",
+    opts: {
+      role: ["nonplayable", "hero", "nopon"],
+      series: ["XC3"],
+    }
+  },
+  {
+    name: "Manana",
+    img: "XC3-Manana.png",
+    opts: {
+      role: ["nonplayable", "hero", "nopon"],
+      series: ["XC3"],
+    }
+  },
+  {
+    name: "Ethel",
+    img: "XC3-Ethel.png",
+    opts: {
+      role: ["nonplayable", "antagonist"],
+      series: ["XC3"],
+    }
+  },
+  {
+    name: "Isurd",
+    img: "XC3-Isurd.png",
+    opts: {
+      role: ["nonplayable", "antagonist"],
+      series: ["XC3"],
+    }
+  },
+  {
+    name: "Cammuravi",
+    img: "XC3-Cammuravi.png",
+    opts: {
+      role: ["nonplayable", "antagonist"],
+      series: ["XC3"],
+    }
+  },
+  {
+    name: "Vandham (XC3)",
+    img: "XC3-Vandham.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XC3"],
+    }
+  },
+  {
     name: "Melia (XC3)",
     img: "XC3-Melia.png",
     opts: {
-      role: ["nonplayable"],
+      role: ["nonplayable", "antagonist"],
       series: ["XC3"],
       duplicate: true,
       spoiler: true
@@ -1533,7 +1605,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Nia (XC3)",
     img: "XC3-Nia.png",
     opts: {
-      role: ["nonplayable"],
+      role: ["nonplayable", "antagonist"],
       series: ["XC3"],
       duplicate: true,
       spoiler: true
