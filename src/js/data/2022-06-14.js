@@ -11,7 +11,9 @@ dataSet[dataSetVersion].options = [
       { name: "Playable", key: "playable" },
       { name: "Non-Playable", key: "nonplayable" },
       { name: "Antagonist", key: "antagonist" },
+      { name: "Nopon", key: "nopon" },
       { name: "Blade", key: "blade" },
+      //{ name: "Heroes", key: "hero" },
     ]
   },
   {
@@ -33,16 +35,19 @@ dataSet[dataSetVersion].options = [
   {
     name: "Filter out Spoilers?",
     key: "spoiler",
-    tooltip: "Check this to restrict spoilers."
+    tooltip: "Check this to restrict spoilers.",
+    checked: false
   },
   {
     name: "Filter out Duplicates?",
     key: "duplicate",
-    tooltip: "Check this to restrict duplicates."
+    tooltip: "Check this to restrict duplicates.",
+    checked: false
   }
 ];
 
 dataSet[dataSetVersion].characterData = [
+  // Xenoblade X
   {
     name: "Cross M",
     img: "XCX-Cross M.png",
@@ -223,7 +228,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Tatsu",
     img: "XCX-Tatsu.png",
     opts: {
-      role: ["nonplayable"],
+      role: ["nonplayable", "nopon"],
       series: ["XCX"]
     }
   },
@@ -283,6 +288,7 @@ dataSet[dataSetVersion].characterData = [
       series: ["XCX"]
     }
   },
+  // Xenoblade 2
   {
     name: "Rex",
     img: "XC2-Rex.png",
@@ -304,7 +310,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Tora",
     img: "XC2-Tora.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "nopon"],
       series: ["XC2"]
     }
   },
@@ -780,6 +786,7 @@ dataSet[dataSetVersion].characterData = [
       series: ["XC2"]
     }
   },
+  // The Golden Country
   {
     name: "Addam",
     img: "TGC-Addam.png",
@@ -836,6 +843,7 @@ dataSet[dataSetVersion].characterData = [
       series: ["TGC"]
     }
   },
+  // Xenoblade 1
   {
     name: "Shulk",
     img: "XC-Shulk.png",
@@ -889,7 +897,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Riki",
     img: "XC-Riki.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "nopon"],
       series: ["XC"]
     }
   },
@@ -1070,11 +1078,20 @@ dataSet[dataSetVersion].characterData = [
       series: ["XC"]
     }
   },
+  // Future Connected
   {
     name: "Nene",
     img: "FC-Nene.png",
     opts: {
-      role: ["playable"],
+      role: ["playable", "nopon"],
+      series: ["FC"]
+    }
+  },
+  {
+    name: "Kino",
+    img: "FC-Kino.png",
+    opts: {
+      role: ["playable", "nopon"],
       series: ["FC"]
     }
   },
@@ -1086,6 +1103,7 @@ dataSet[dataSetVersion].characterData = [
       series: ["FC"]
     }
   },
+  // Xenogears
   {
     name: "Fei",
     img: "XG-Fei.png",
@@ -1271,6 +1289,7 @@ dataSet[dataSetVersion].characterData = [
       series: ["XG"]
     }
   },
+  // Xenosaga
   {
     name: "Allen",
     img: "XS-Allen.png",
