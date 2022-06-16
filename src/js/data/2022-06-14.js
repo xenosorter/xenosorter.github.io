@@ -1555,8 +1555,8 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Yuzuriha",
-    img: "XC3-Yuzuriha.png",
+    name: "Juniper",
+    img: "XC3-Juniper.png",
     opts: {
       role: ["nonplayable", "hero"],
       series: ["XC3"],
