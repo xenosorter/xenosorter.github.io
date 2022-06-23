@@ -771,6 +771,14 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Bana",
+    img: "XC2-Bana.png",
+    opts: {
+      role: ["nonplayable", "antagonist", "nopon"],
+      series: ["XC2"],
+    }
+  },
+  {
     name: "Corvin",
     img: "XC2-Corvin.png",
     opts: {
@@ -1224,7 +1232,22 @@ dataSet[dataSetVersion].characterData = [
       series: ["XG"]
     }
   },
-
+  {
+    name: "Big Joe",
+    img: "XG-Big Joe.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XG"],
+    }
+  },
+  {
+    name: "Hammer",
+    img: "XG-Hammer.png",
+    opts: {
+      role: ["nonplayable", "antagonist"],
+      series: ["XG"],
+    }
+  },
   {
     name: "Dominia",
     img: "XG-Dominia.png",
@@ -1491,6 +1514,87 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Assistant Scott",
+    img: "XS-Assistant Scott.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XS"],
+    }
+  },
+  {
+    name: "Professor",
+    img: "XS-Professor.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XS"],
+    }
+  },
+  {
+    name: "Citrine",
+    img: "XS-Citrine.png",
+    opts: {
+      role: ["nonplayable", "antagonist"],
+      series: ["XS"],
+    }
+  },
+  {
+    name: "Doctis",
+    img: "XS-Doctis.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XS"],
+    }
+  },
+  {
+    name: "Hammer",
+    img: "XS-Hammer.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XS"],
+    }
+  },
+  {
+    name: "Tony",
+    img: "XS-Tony.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XS"],
+    }
+  },
+  {
+    name: "Helmer",
+    img: "XS-Helmer.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XS"],
+    }
+  },
+  {
+    name: "Juli Mizrahi",
+    img: "XS-Juli.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XS"],
+    }
+  },
+  {
+    name: "Mary",
+    img: "XS-Mary.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XS"],
+    }
+  },
+  {
+    name: "Shelley",
+    img: "XS-Shelley.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XS"],
+    }
+  },
+  // Xenoblade Chronicles 3
+  {
     name: "Noah",
     img: "XC3-Noah.png",
     opts: {
@@ -1553,7 +1657,8 @@ dataSet[dataSetVersion].characterData = [
       role: ["nonplayable", "hero", "nopon"],
       series: ["XC3"],
     }
-  },  {
+  },
+  {
     name: "Alexandria",
     img: "XC3-Alexandria.png",
     opts: {
@@ -1667,7 +1772,6 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       role: ["nonplayable", "antagonist"],
       series: ["XC3"],
-      spoiler: true
     }
   },
   {
