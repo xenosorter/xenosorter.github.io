@@ -33,13 +33,13 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
-    name: "Filter Spoilers?",
+    name: "Filter out Spoilers?",
     key: "spoiler",
     tooltip: "Check this to restrict spoilers.",
     checked: false
   },
   {
-    name: "Filter Duplicates?",
+    name: "Filter out Duplicates?",
     key: "duplicate",
     tooltip: "Check this to restrict duplicates.",
     checked: false
@@ -377,8 +377,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       role: ["playable", "blade"],
       series: ["XC2"],
-      spoiler: true,
-      duplicate: true
+      spoiler: true
     }
   },
   {
@@ -875,8 +874,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       role: ["playable"],
       series: ["XC"],
-      spoiler: true,
-      duplicate: true
+      spoiler: true
     }
   },
   {
