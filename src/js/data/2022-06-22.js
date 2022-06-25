@@ -13,7 +13,7 @@ dataSet[dataSetVersion].options = [
       { name: "Antagonist", key: "antagonist" },
       { name: "Nopon", key: "nopon" },
       { name: "Blade", key: "blade" },
-      { name: "Heroes", key: "hero" },
+      { name: "Heroes", key: "hero", checked: false },
     ]
   },
   {
@@ -29,17 +29,17 @@ dataSet[dataSetVersion].options = [
       { name: "Xenoblade Chronicles X", key: "XCX" },
       { name: "Xenoblade Chronicles 2", key: "XC2" },
       { name: "The Golden Country", key: "TGC" },
-      { name: "Xenoblade Chronicles 3", key: "XC3" },
+      { name: "Xenoblade Chronicles 3", key: "XC3", checked: false },
     ]
   },
   {
-    name: "Filter out Spoilers?",
+    name: "Restrict Spoilers",
     key: "spoiler",
     tooltip: "Check this to restrict spoilers.",
     checked: false
   },
   {
-    name: "Filter out Duplicates?",
+    name: "Restrict Duplicates",
     key: "duplicate",
     tooltip: "Check this to restrict duplicates.",
     checked: false
@@ -377,7 +377,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       role: ["playable", "blade"],
       series: ["XC2"],
-      spoiler: true
+      spoiler: true,
+      duplicate: true
     }
   },
   {
@@ -874,7 +875,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       role: ["playable"],
       series: ["XC"],
-      spoiler: true
+      spoiler: true,
+      duplicate: true
     }
   },
   {
