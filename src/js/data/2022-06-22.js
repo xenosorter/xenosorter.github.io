@@ -13,7 +13,7 @@ dataSet[dataSetVersion].options = [
       { name: "Antagonist", key: "antagonist" },
       { name: "Nopon", key: "nopon" },
       { name: "Blade", key: "blade" },
-      { name: "Heroes", key: "hero", checked: false },
+      { name: "Heroes", key: "hero" },
     ]
   },
   {
@@ -29,17 +29,17 @@ dataSet[dataSetVersion].options = [
       { name: "Xenoblade Chronicles X", key: "XCX" },
       { name: "Xenoblade Chronicles 2", key: "XC2" },
       { name: "The Golden Country", key: "TGC" },
-      { name: "Xenoblade Chronicles 3", key: "XC3", checked: false },
+      { name: "Xenoblade Chronicles 3", key: "XC3" },
     ]
   },
   {
-    name: "Restrict Spoilers",
+    name: "Filter Spoilers?",
     key: "spoiler",
     tooltip: "Check this to restrict spoilers.",
     checked: false
   },
   {
-    name: "Restrict Duplicates",
+    name: "Filter Duplicates?",
     key: "duplicate",
     tooltip: "Check this to restrict duplicates.",
     checked: false
