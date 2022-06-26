@@ -1243,7 +1243,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Hammer",
+    name: "Hammer (XG)",
     img: "XG-Hammer.png",
     opts: {
       role: ["nonplayable", "antagonist"],
@@ -1548,7 +1548,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Hammer",
+    name: "Hammer (XS)",
     img: "XS-Hammer.png",
     opts: {
       role: ["nonplayable"],
