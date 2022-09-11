@@ -895,10 +895,18 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Zettar",
-    img: "TGC_Tornan King.png",
+    img: "TGC-Zettar.png",
     opts: {
       role: ["nonplayable"],
-      series: ["XC2"],
+      series: ["TGC"],
+    }
+  },
+  {
+    name: "Tornan King",
+    img: "TGC-Tornan King.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["TGC"],
     }
   },
   // Xenoblade Chronicles 1
