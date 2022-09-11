@@ -1864,8 +1864,8 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Borealis",
-    img: "XC3-Borealis.png",
+    name: "Bolearis",
+    img: "XC3-Bolearis.png",
     opts: {
       role: ["nonplayable"],
       series: ["XC3"],
