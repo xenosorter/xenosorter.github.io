@@ -13,8 +13,8 @@ dataSet[dataSetVersion].options = [
       { name: "Antagonist", key: "antagonist" },
       { name: "Nopon", key: "nopon" },
       { name: "Blade", key: "blade" },
-      { name: "Hero", key: "hero", checked: false },
-      { name: "Consul", key: "consul", checked: false },
+      { name: "Hero", key: "hero" },
+      { name: "Consul", key: "consul" },
     ]
   },
   {
