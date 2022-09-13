@@ -1912,6 +1912,46 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Garrett",
+    img: "XC3-Garrett.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XC3"],
+    }
+  },
+  {
+    name: "Garvel",
+    img: "XC3-Garvel.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XC3"],
+    }
+  },
+  {
+    name: "Jeremy",
+    img: "XC3-Jemery.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XC3"],
+    }
+  },
+  {
+    name: "Kite",
+    img: "XC3-Kite.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XC3"],
+    }
+  },
+  {
+    name: "Travis",
+    img: "XC3-Travis.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XC3"],
+    }
+  },
+  {
     name: "Consul B",
     img: "XC3-B.png",
     opts: {
