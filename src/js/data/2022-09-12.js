@@ -2144,4 +2144,12 @@ dataSet[dataSetVersion].characterData = [
       series: ["XC3"],
     }
   },
+  {
+    name: "Ino",
+    img: "XC3-Ino.png",
+    opts: {
+      role: ["nonplayable", "hero"],
+      series: ["XC3"],
+    }
+  }
 ];
