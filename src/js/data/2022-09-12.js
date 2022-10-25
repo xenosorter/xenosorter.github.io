@@ -1212,7 +1212,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Chu",
+    name: "Chu-Chu",
     img: "XG-Chu.png",
     opts: {
       role: ["playable"],
@@ -1278,6 +1278,14 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Cain",
     img: "XG-Cain.png",
+    opts: {
+      role: ["nonplayable", "antagonist"],
+      series: ["XG"]
+    }
+  },
+  {
+    name: "Gazel Ministry",
+    img: "XG-Gazel Ministry.png",
     opts: {
       role: ["nonplayable", "antagonist"],
       series: ["XG"]
@@ -1366,6 +1374,22 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Maria",
     img: "XG-Maria.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XG"]
+    }
+  },
+  {
+    name: "Zephyr",
+    img: "XG-Zephyr.png",
+    opts: {
+      role: ["nonplayable"],
+      series: ["XG"]
+    }
+  },
+  {
+    name: "Dan",
+    img: "XG-Dan.png",
     opts: {
       role: ["nonplayable"],
       series: ["XG"]
@@ -1929,7 +1953,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Jeremy",
-    img: "XC3-Jemery.png",
+    img: "XC3-Jeremy.png",
     opts: {
       role: ["nonplayable"],
       series: ["XC3"],
