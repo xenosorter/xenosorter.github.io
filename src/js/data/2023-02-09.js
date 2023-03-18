@@ -752,7 +752,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Jin (XC2)",
     img: "XC2-Jin.png",
     opts: {
-      role: ["nonplayable", "antagonist", "blade"],
+      role: ["playable", "antagonist", "blade"],
       series: ["XC2"]
     }
   },
@@ -760,7 +760,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Malos",
     img: "XC2-Malos.png",
     opts: {
-      role: ["nonplayable", "antagonist", "blade"],
+      role: ["playable", "antagonist", "blade"],
       series: ["XC2"]
     }
   },
