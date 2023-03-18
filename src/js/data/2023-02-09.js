@@ -1236,7 +1236,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "ID",
+    name: "Id",
     img: "XG-ID.png",
     opts: {
       role: ["nonplayable", "antagonist"],
@@ -1421,7 +1421,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "JR",
+    name: "Jr.",
     img: "XS-JR.png",
     opts: {
       role: ["playable"],
