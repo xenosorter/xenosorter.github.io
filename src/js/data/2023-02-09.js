@@ -553,7 +553,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "KOS-MOS",
+    name: "KOS-MOS (XC2)",
     img: "XC2-KOS-MOS.png",
     opts: {
       role: ["playable", "blade"],
@@ -666,7 +666,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "T-elos",
+    name: "T-elos (XC2)",
     img: "XC2-T-elos.png",
     opts: {
       role: ["playable", "blade"],
@@ -1429,7 +1429,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "KOS-MOS",
+    name: "KOS-MOS (XS)",
     img: "XS-KOS-MOS.png",
     opts: {
       role: ["playable"],
@@ -1565,7 +1565,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "T-elos",
+    name: "T-elos (XS)",
     img: "XS-T-elos.png",
     opts: {
       role: ["nonplayable", "antagonist"],
