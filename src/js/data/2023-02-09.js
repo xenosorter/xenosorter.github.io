@@ -7,7 +7,7 @@ dataSet[dataSetVersion].options = [
     key: "role",
     tooltip: "Check this to restrict to certain character roles.",
     checked: true,
-    sub: [
+    sub: [ // protag, major antag, minor antag, remove antag from consul, remove playable, remove/rework nonplayable
       { name: "Playable", key: "playable" },
       { name: "Non-Playable", key: "nonplayable" },
       { name: "Antagonist", key: "antagonist" },
@@ -1509,8 +1509,8 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Nigredo",
-    img: "XS-Nigredo.png",
+    name: "Gaignun",
+    img: "XS-Gaignun.png",
     opts: {
       role: ["nonplayable"],
       series: ["XS"]
@@ -1621,8 +1621,8 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Doctis",
-    img: "XS-Doctis.png",
+    name: "Doctus",
+    img: "XS-Doctus.png",
     opts: {
       role: ["nonplayable"],
       series: ["XS"],
