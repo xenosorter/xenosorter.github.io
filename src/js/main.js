@@ -290,21 +290,22 @@ function display() {
   const leftChar        = characterDataToSort[leftCharIndex];
   const rightChar       = characterDataToSort[rightCharIndex];
 
-  const charNameDisp = name => {
+  const charNameDisp = (name, wiki) => {
     const charName = reduceTextWidth(name, 'Arial 12.8px', 220);
     const charTooltip = name !== charName ? name : '';
-    return `<p title="${charTooltip}">${charName}</p>`;
+    return `<p title="${charTooltip}"><a href="${wiki}" target="_blank">${charName}</a></p>`;
   };
 
   progressBar(`Battle No. ${battleNo}`, percent);
 
+  // TODO: RANDOM IMG OR SPOILER IMG
   document.querySelector('.left.sort.image').src = leftChar.img;
   document.querySelector('.right.sort.image').src = rightChar.img;
 
   
 
-  document.querySelector('.left.sort.text').innerHTML = charNameDisp(leftChar.name);
-  document.querySelector('.right.sort.text').innerHTML = charNameDisp(rightChar.name);
+  document.querySelector('.left.sort.text').innerHTML = charNameDisp(leftChar.name, leftChar.wiki);
+  document.querySelector('.right.sort.text').innerHTML = charNameDisp(rightChar.name, rightChar.wiki);
 
   /** Autopick if choice has been given. */
   if (choices.length !== battleNo - 1) {
@@ -855,3 +856,8 @@ function reduceTextWidth(text, font, width) {
 }
 
 window.onload = init;
+
+function toggleButton() {
+  var x = document.getElementById("news");
+  x.style.display = x.style.display === "none" ? "block" : "none";
+}

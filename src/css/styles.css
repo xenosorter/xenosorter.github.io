@@ -270,6 +270,24 @@ label:hover {
   line-height: 1.2em;
 }
 
+.news-container {
+  display: flex;
+  justify-content: center;
+} 
+
+.news {
+  text-align: left;
+  max-width: 300px;
+}
+
+.last-updated {
+  margin-top: 10px;
+  font-size: 12px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
 a {
   color: #990000;
   font-weight: bold;
@@ -283,4 +301,8 @@ a:hover {
 
 a:visited {
   color: #6600FF;
+}
+
+ul {
+  list-style-type: circle;
 }
