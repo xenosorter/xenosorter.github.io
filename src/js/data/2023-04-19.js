@@ -2334,7 +2334,7 @@ dataSet[dataSetVersion].characterData = [
     wiki: "https://xenoblade.fandom.com/wiki/N",
     opts: {
       role: ["majant", "consul"],
-      series: ["XC3"],
+      series: ["XC3", "FR"],
     }
   },
   {
