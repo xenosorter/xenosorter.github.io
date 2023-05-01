@@ -2505,8 +2505,8 @@ dataSet[dataSetVersion].characterData = [
     img: "FR-Shulk.png",
     wiki: "https://xenoblade.fandom.com/wiki/Shulk#Future_Redeemed",
     opts: {
-      role: ["protag"],
-      series: ["FR"],
+      role: ["protag", "hero"],
+      series: ["XC3", "FR"],
       duplicate: true,
     }
   },
@@ -2515,8 +2515,8 @@ dataSet[dataSetVersion].characterData = [
     img: "FR-Rex.png",
     wiki: "https://xenoblade.fandom.com/wiki/Rex#Xenoblade_Chronicles_3:_Future_Redeemed",
     opts: {
-      role: ["protag"],
-      series: ["FR"],
+      role: ["protag", "hero"],
+      series: ["XC3", "FR"],
       duplicate: true,
     }
   },
