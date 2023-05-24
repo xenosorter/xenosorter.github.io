@@ -1603,7 +1603,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Zenobia",
     img: "XC2-Zenobia.png",
-    wiki :"https://xenoblade.fandom.com/wiki/Zenobia",
+    wiki: "https://xenoblade.fandom.com/wiki/Zenobia",
     opts: {
       role: ["2blade"],
       series: ["XC2"]
@@ -2525,7 +2525,7 @@ dataSet[dataSetVersion].characterData = [
     img: "FR-Panacea.png",
     wiki: "https://xenoblade.fandom.com/wiki/Panacea",
     opts: {
-      role: ["NPC"],
+      role: ["npc"],
       series: ["FR"],
     }
   },
@@ -2534,7 +2534,7 @@ dataSet[dataSetVersion].characterData = [
     img: "FR-Linka.png",
     wiki: "https://xenoblade.fandom.com/wiki/Linka",
     opts: {
-      role: ["NPC"],
+      role: ["npc"],
       series: ["FR"],
     }
   },
@@ -2552,7 +2552,7 @@ dataSet[dataSetVersion].characterData = [
     img: "FR-Ghondor.png",
     wiki: "https://xenoblade.fandom.com/wiki/Ghondor_(FR)",
     opts: {
-      role: ["NPC"],
+      role: ["npc"],
       series: ["FR"],
     }
   },
