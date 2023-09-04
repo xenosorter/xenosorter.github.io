@@ -3,6 +3,11 @@ body {
   font-size: 16px;
 }
 
+.title {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
 .container {
   display: flex;
   flex-flow: column nowrap;
