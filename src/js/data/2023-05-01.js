@@ -33,7 +33,7 @@ dataSet[dataSetVersion].options = [
       { name: "Xenoblade Chronicles 2", key: "XC2" },
       { name: "The Golden Country", key: "TGC" },
       { name: "Xenoblade Chronicles 3", key: "XC3" },
-      { name: "Future Redeemed", key: "FR"}
+      { name: "Future Redeemed", key: "FR" }
     ]
   },
   {
@@ -2506,7 +2506,7 @@ dataSet[dataSetVersion].characterData = [
     wiki: "https://xenoblade.fandom.com/wiki/Shulk#Future_Redeemed",
     opts: {
       role: ["protag", "hero"],
-      series: ["XC3", "FR"],
+      series: ["FR"],
       duplicate: true,
     }
   },
@@ -2516,7 +2516,7 @@ dataSet[dataSetVersion].characterData = [
     wiki: "https://xenoblade.fandom.com/wiki/Rex#Xenoblade_Chronicles_3:_Future_Redeemed",
     opts: {
       role: ["protag", "hero"],
-      series: ["XC3", "FR"],
+      series: ["FR"],
       duplicate: true,
     }
   },

@@ -147,6 +147,10 @@ body {
   border: 1px solid #000000;
 }
 
+.sorter > .skip {
+  display: none;
+}
+
 .options {
   margin: 1em auto;
   display: grid;

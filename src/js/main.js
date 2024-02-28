@@ -63,6 +63,9 @@ function init() {
 
   document.querySelector('.left.sort.image').addEventListener('click', () => pick('left'));
   document.querySelector('.right.sort.image').addEventListener('click', () => pick('right'));
+
+  document.querySelector('.left.sort.skip.button').addEventListener('click', () => skip('left'));
+  document.querySelector('.right.sort.skip.button').addEventListener('click', () => skip('right'));
   
   document.querySelector('.sorting.tie.button').addEventListener('click', () => pick('tie'));
   document.querySelector('.sorting.undo.button').addEventListener('click', undo);
@@ -279,6 +282,8 @@ function start() {
     document.querySelector('.loading.button').style.display = 'none';
     document.querySelectorAll('.sorting.button').forEach(el => el.style.display = 'block');
     document.querySelectorAll('.sort.text').forEach(el => el.style.display = 'block');
+    document.querySelector('.left.sort.skip.button').style.display = 'block';
+    document.querySelector('.right.sort.skip.button').style.display = 'block';
     display();
   });
 }
@@ -290,6 +295,8 @@ function display() {
   const rightCharIndex  = sortedIndexList[rightIndex][rightInnerIndex];
   const leftChar        = characterDataToSort[leftCharIndex];
   const rightChar       = characterDataToSort[rightCharIndex];
+
+  if (skipCheck(leftChar, rightChar)) return;
 
   const charNameDisp = (name, wiki) => {
     const charName = reduceTextWidth(name, 'Arial 12.8px', 220);
@@ -317,6 +324,51 @@ function display() {
       default: break;
     }
   } else { saveProgress('Autosave'); }
+}
+
+/**
+ * Check if a character can be skipped.
+ * 
+ * @param {*} leftChar 
+ * @param {*} rightChar 
+ */
+function skipCheck(leftChar, rightChar) {
+  if (leftChar.skip && rightChar.skip) {
+    pick('tie');
+    return true;
+  } else if (leftChar.skip) {
+    pick ('right');
+    return true;
+  } else if (rightChar.skip) {
+    pick('left');
+    return true;
+  }
+  return false;
+}
+
+/**
+ * Skip character functionality.
+ * 
+ * @param { 'left'|'right' } type 
+ */
+function skip(type) {
+  const leftCharIndex   = sortedIndexList[leftIndex][leftInnerIndex];
+  const rightCharIndex  = sortedIndexList[rightIndex][rightInnerIndex];
+  const leftChar        = characterDataToSort[leftCharIndex];
+  const rightChar       = characterDataToSort[rightCharIndex];
+
+  switch(type) {
+    case 'left': {
+      leftChar.skip = true;
+      pick('right');
+      break;
+    }
+    case 'right': {
+      rightChar.skip = true;
+      pick('left');
+      break;
+    }
+  }
 }
 
 /**
