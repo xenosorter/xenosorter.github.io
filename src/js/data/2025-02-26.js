@@ -57,7 +57,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Fei",
     img: "XG-Fei.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Fei_Fong_Wong",
+    wiki: "https://www.xenoserieswiki.org/wiki/Fei_Fong_Wong",
     opts: {
       role: ["protag"],
       series: ["XG"]
@@ -66,7 +66,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Citan",
     img: "XG-Citan.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Citan_Uzuki", 
+    wiki: "https://www.xenoserieswiki.org/wiki/Citan_Uzuki", 
     opts: {
       role: ["protag"],
       series: ["XG"]
@@ -75,7 +75,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Elly",
     img: "XG-Elly.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Elehayym_Van_Houten",
+    wiki: "https://www.xenoserieswiki.org/wiki/Elehayym_Van_Houten",
     opts: {
       role: ["protag"],
       series: ["XG"]
@@ -84,7 +84,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Bart",
     img: "XG-Bart.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Bartholomew_Fatima",
+    wiki: "https://www.xenoserieswiki.org/wiki/Bartholomew_Fatima",
     opts: {
       role: ["protag"],
       series: ["XG"]
@@ -93,7 +93,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Billy",
     img: "XG-Billy.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Billy_Lee_Black",
+    wiki: "https://www.xenoserieswiki.org/wiki/Billy_Lee_Black",
     opts: {
       role: ["protag"],
       series: ["XG"]
@@ -102,7 +102,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Chu-Chu",
     img: "XG-Chu.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Chu-Chu",
+    wiki: "https://www.xenoserieswiki.org/wiki/Chu-Chu",
     opts: {
       role: ["protag"],
       series: ["XG"]
@@ -111,7 +111,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Emeralda",
     img: "XG-Emeralda.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Emeralda_Kasim",
+    wiki: "https://www.xenoserieswiki.org/wiki/Emeralda_Kasim",
     opts: {
       role: ["protag"],
       series: ["XG"]
@@ -120,7 +120,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Rico",
     img: "XG-Rico.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Ricardo_Banderas",
+    wiki: "https://www.xenoserieswiki.org/wiki/Ricardo_Banderas",
     opts: {
       role: ["protag"],
       series: ["XG"]
@@ -129,7 +129,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Maria",
     img: "XG-Maria.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Maria_Balthasar",
+    wiki: "https://www.xenoserieswiki.org/wiki/Maria_Balthasar",
     opts: {
       role: ["protag"],
       series: ["XG"]
@@ -138,7 +138,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Id",
     img: "XG-ID.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Id",
+    wiki: "https://www.xenoserieswiki.org/wiki/Id",
     opts: {
       role: ["majant"],
       series: ["XG"]
@@ -147,7 +147,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Grahf",
     img: "XG-Grahf.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Grahf",
+    wiki: "https://www.xenoserieswiki.org/wiki/Grahf",
     opts: {
       role: ["majant"],
       series: ["XG"]
@@ -156,7 +156,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Wiseman",
     img: "XG-Wiseman.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Wiseman",
+    wiki: "https://www.xenoserieswiki.org/wiki/Wiseman",
     opts: {
       role: ["npc"],
       series: ["XG"]
@@ -165,7 +165,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Miang",
     img: "XG-Miang.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Myyah_Hawwa",
+    wiki: "https://www.xenoserieswiki.org/wiki/Myyah_Hawwa",
     opts: {
       role: ["majant"],
       series: ["XG"]
@@ -174,7 +174,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Krelian",
     img: "XG-Krelian.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Karellen",
+    wiki: "https://www.xenoserieswiki.org/wiki/Karellen",
     opts: {
       role: ["majant"],
       series: ["XG"]
@@ -183,7 +183,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Cain",
     img: "XG-Cain.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Cain",
+    wiki: "https://www.xenoserieswiki.org/wiki/Cain",
     opts: {
       role: ["majant"],
       series: ["XG"]
@@ -192,7 +192,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Gazel Ministry",
     img: "XG-Gazel Ministry.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Gazel_Ministry",
+    wiki: "https://www.xenoserieswiki.org/wiki/Gazel_Ministry",
     opts: {
       role: ["majant"],
       series: ["XG"]
@@ -201,7 +201,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Ramsus",
     img: "XG-Ramsus.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Kahran_Ramsus",
+    wiki: "https://www.xenoserieswiki.org/wiki/Kahran_Ramsus",
     opts: {
       role: ["majant"],
       series: ["XG"]
@@ -210,7 +210,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Big Joe",
     img: "XG-Big Joe.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Big_Joe",
+    wiki: "https://www.xenoserieswiki.org/wiki/Big_Joe",
     opts: {
       role: ["npc"],
       series: ["XG"],
@@ -219,7 +219,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Hammer (XG)",
     img: "XG-Hammer.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Hammer_(Xenogears)",
+    wiki: "https://www.xenoserieswiki.org/wiki/Hammer_(XG)",
     opts: {
       role: ["npc", "minant"],
       series: ["XG"],
@@ -228,7 +228,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Dominia",
     img: "XG-Dominia.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Dominia_Yizkor",
+    wiki: "https://www.xenoserieswiki.org/wiki/Dominia_Yizkor",
     opts: {
       role: ["minant"],
       series: ["XG"]
@@ -237,7 +237,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Tolone",
     img: "XG-Tolone.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Tolone",
+    wiki: "https://www.xenoserieswiki.org/wiki/Tolone",
     opts: {
       role: ["minant"],
       series: ["XG"]
@@ -246,7 +246,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Seraphita",
     img: "XG-Seraphita.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Seraphita",
+    wiki: "https://www.xenoserieswiki.org/wiki/Seraphita",
     opts: {
       role: ["minant"],
       series: ["XG"]
@@ -255,7 +255,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Kelvena",
     img: "XG-Kelvena.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Kelvena",
+    wiki: "https://www.xenoserieswiki.org/wiki/Kelvena",
     opts: {
       role: ["minant"],
       series: ["XG"]
@@ -264,7 +264,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Jessie",
     img: "XG-Jessie.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Jessie_Black",
+    wiki: "https://www.xenoserieswiki.org/wiki/Jessie_Black",
     opts: {
       role: ["npc"],
       series: ["XG"]
@@ -273,7 +273,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Margie",
     img: "XG-Margie.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Marguerite_Fatima",
+    wiki: "https://www.xenoserieswiki.org/wiki/Marguerite_Fatima",
     opts: {
       role: ["npc"],
       series: ["XG"]
@@ -282,7 +282,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Sigurd",
     img: "XG-Sigurd.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Sigurd_Harcourt",
+    wiki: "https://www.xenoserieswiki.org/wiki/Sigurd_Harcourt",
     opts: {
       role: ["npc"],
       series: ["XG"]
@@ -291,7 +291,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Zephyr",
     img: "XG-Zephyr.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Zephyr",
+    wiki: "https://www.xenoserieswiki.org/wiki/Zephyr_(XG)",
     opts: {
       role: ["npc"],
       series: ["XG"]
@@ -300,7 +300,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Dan",
     img: "XG-Dan.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Dan",
+    wiki: "https://www.xenoserieswiki.org/wiki/Dan",
     opts: {
       role: ["npc"],
       series: ["XG"]
@@ -309,7 +309,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Wave Existence",
     img: "XG-Wave Existence.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Wave_Existence",
+    wiki: "https://www.xenoserieswiki.org/wiki/Wave_Existence",
     opts: {
       role: ["npc"],
       series: ["XG"],
@@ -320,7 +320,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Allen",
     img: "XS-Allen.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Allen_Ridgeley",
+    wiki: "https://www.xenoserieswiki.org/wiki/Allen_Ridgeley",
     opts: {
       role: ["protag"],
       series: ["XS"]
@@ -329,7 +329,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "chaos",
     img: "XS-Chaos.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Chaos",
+    wiki: "https://www.xenoserieswiki.org/wiki/Chaos",
     opts: {
       role: ["protag"],
       series: ["XS"]
@@ -338,7 +338,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Jin (XS)",
     img: "XS-Jin.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Jin_Uzuki",
+    wiki: "https://www.xenoserieswiki.org/wiki/Jin_Uzuki",
     opts: {
       role: ["protag"],
       series: ["XS"]
@@ -347,7 +347,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Jr.",
     img: "XS-JR.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Gaignun_Kukai_Jr.",
+    wiki: "https://www.xenoserieswiki.org/wiki/Gaignun_Kukai_Jr.",
     opts: {
       role: ["protag"],
       series: ["XS"]
@@ -356,7 +356,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "KOS-MOS (XS)",
     img: "XS-KOS-MOS.png",
-    wiki: "https://xenosaga.fandom.com/wiki/KOS-MOS",
+    wiki: "https://www.xenoserieswiki.org/wiki/KOS-MOS",
     opts: {
       role: ["protag"],
       series: ["XS"]
@@ -365,7 +365,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "MOMO",
     img: "XS-MOMO.png",
-    wiki: "https://xenosaga.fandom.com/wiki/MOMO_Mizrahi",
+    wiki: "https://www.xenoserieswiki.org/wiki/MOMO_Mizrahi",
     opts: {
       role: ["protag"],
       series: ["XS"]
@@ -374,7 +374,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Shion",
     img: "XS-Shion.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Shion_Uzuki",
+    wiki: "https://www.xenoserieswiki.org/wiki/Shion_Uzuki",
     opts: {
       role: ["protag"],
       series: ["XS"]
@@ -383,7 +383,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Ziggy",
     img: "XS-Ziggy.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Ziggy",
+    wiki: "https://www.xenoserieswiki.org/wiki/Ziggy",
     opts: {
       role: ["protag"],
       series: ["XS"]
@@ -392,7 +392,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Canaan",
     img: "XS-Canaan.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Canaan",
+    wiki: "https://www.xenoserieswiki.org/wiki/Canaan",
     opts: {
       role: ["protag"],
       series: ["XS"]
@@ -401,7 +401,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Cherenkov",
     img: "XS-Cherenkov.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Andrew_Cherenkov",
+    wiki: "https://www.xenoserieswiki.org/wiki/Andrew_Cherenkov",
     opts: {
       role: ["minant"],
       series: ["XS"]
@@ -410,7 +410,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Febronia",
     img: "XS-Febronia.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Febronia",
+    wiki: "https://www.xenoserieswiki.org/wiki/Febronia",
     opts: {
       role: ["npc"],
       series: ["XS"]
@@ -419,7 +419,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Matthews",
     img: "XS-Matthews.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Matthews",
+    wiki: "https://www.xenoserieswiki.org/wiki/Matthews",
     opts: {
       role: ["npc"],
       series: ["XS"]
@@ -428,7 +428,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Miyuki",
     img: "XS-Miyuki.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Miyuki_Itsumi",
+    wiki: "https://www.xenoserieswiki.org/wiki/Miyuki_Itsumi",
     opts: {
       role: ["npc"],
       series: ["XS"]
@@ -437,7 +437,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Nephilim",
     img: "XS-Nephilim.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Nephilim_Verum",
+    wiki: "https://www.xenoserieswiki.org/wiki/Nephilim",
     opts: {
       role: ["npc"],
       series: ["XS"]
@@ -446,7 +446,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Gaignun",
     img: "XS-Gaignun.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Gaignun_Kukai",
+    wiki: "https://www.xenoserieswiki.org/wiki/Gaignun_Kukai",
     opts: {
       role: ["npc"],
       series: ["XS"]
@@ -455,7 +455,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Albedo",
     img: "XS-Albedo.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Albedo_Piazzolla",
+    wiki: "https://www.xenoserieswiki.org/wiki/Albedo_Piazzolla",
     opts: {
       role: ["majant"],
       series: ["XS"]
@@ -464,7 +464,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Dmitri",
     img: "XS-Dmitri.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Dmitri_Yuriev",
+    wiki: "https://www.xenoserieswiki.org/wiki/Dmitri_Yuriev",
     opts: {
       role: ["majant"],
       series: ["XS"]
@@ -473,7 +473,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Kevin",
     img: "XS-Kevin.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Kevin_Winnicot",
+    wiki: "https://www.xenoserieswiki.org/wiki/Kevin_Winnicot",
     opts: {
       role: ["majant"],
       series: ["XS"]
@@ -482,7 +482,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Margulis",
     img: "XS-Margulis.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Margulis",
+    wiki: "https://www.xenoserieswiki.org/wiki/Margulis",
     opts: {
       role: ["majant"],
       series: ["XS"]
@@ -491,7 +491,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Pellegri",
     img: "XS-Pellegri.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Pellegri",
+    wiki: "https://www.xenoserieswiki.org/wiki/Pellegri",
     opts: {
       role: ["majant"],
       series: ["XS"]
@@ -500,7 +500,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Sergius",
     img: "XS-Sergius.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Sergius_XVII",
+    wiki: "https://www.xenoserieswiki.org/wiki/Sergius_XVII",
     opts: {
       role: ["minant"],
       series: ["XS"]
@@ -509,7 +509,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "T-elos (XS)",
     img: "XS-T-elos.png",
-    wiki: "https://xenosaga.fandom.com/wiki/T-elos",
+    wiki: "https://www.xenoserieswiki.org/wiki/T-elos",
     opts: {
       role: ["majant"],
       series: ["XS"]
@@ -518,7 +518,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Wilhelm",
     img: "XS-Wilhelm.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Wilhelm",
+    wiki: "https://www.xenoserieswiki.org/wiki/Wilhelm",
     opts: {
       role: ["majant"],
       series: ["XS"],
@@ -528,7 +528,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Virgil",
     img: "XS-Virgil.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Luis_Virgil",
+    wiki: "https://www.xenoserieswiki.org/wiki/Luis_Virgil",
     opts: {
       role: ["minant"],
       series: ["XS"]
@@ -537,7 +537,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Voyager",
     img: "XS-Voyager.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Erich_Weber",
+    wiki: "https://www.xenoserieswiki.org/wiki/Erich_Weber",
     opts: {
       role: ["minant"],
       series: ["XS"]
@@ -546,7 +546,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Assistant Scott",
     img: "XS-Assistant Scott.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Scott",
+    wiki: "https://www.xenoserieswiki.org/wiki/Scott",
     opts: {
       role: ["npc"],
       series: ["XS"]
@@ -555,7 +555,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Professor",
     img: "XS-Professor.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Professor",
+    wiki: "https://www.xenoserieswiki.org/wiki/Professor",
     opts: {
       role: ["npc"],
       series: ["XS"]
@@ -564,7 +564,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Citrine",
     img: "XS-Citrine.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Citrine",
+    wiki: "https://www.xenoserieswiki.org/wiki/Citrine",
     opts: {
       role: ["minant"],
       series: ["XS"]
@@ -573,7 +573,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Doctus",
     img: "XS-Doctus.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Doctus",
+    wiki: "https://www.xenoserieswiki.org/wiki/Doctus",
     opts: {
       role: ["npc"],
       series: ["XS"]
@@ -582,7 +582,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Hammer (XS)",
     img: "XS-Hammer.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Hammer",
+    wiki: "https://www.xenoserieswiki.org/wiki/Hammer",
     opts: {
       role: ["npc"],
       series: ["XS"]
@@ -591,7 +591,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Tony",
     img: "XS-Tony.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Hammer",
+    wiki: "https://www.xenoserieswiki.org/wiki/Tony",
     opts: {
       role: ["npc"],
       series: ["XS"]
@@ -600,7 +600,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Helmer",
     img: "XS-Helmer.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Helmer",
+    wiki: "https://www.xenoserieswiki.org/wiki/Helmer",
     opts: {
       role: ["npc"],
       series: ["XS"]
@@ -609,7 +609,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Juli Mizrahi",
     img: "XS-Juli.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Juli_Mizrahi",
+    wiki: "https://www.xenoserieswiki.org/wiki/Juli_Mizrahi",
     opts: {
       role: ["npc"],
       series: ["XS"]
@@ -618,7 +618,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Mary",
     img: "XS-Mary.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Mary_Godwin",
+    wiki: "https://www.xenoserieswiki.org/wiki/Mary_Godwin",
     opts: {
       role: ["npc"],
       series: ["XS"]
@@ -627,7 +627,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Shelley",
     img: "XS-Shelley.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Shelley_Godwin",
+    wiki: "https://www.xenoserieswiki.org/wiki/Shelley_Godwin",
     opts: {
       role: ["npc"],
       series: ["XS"]
@@ -636,7 +636,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Abel",
     img: "XS-Abel.png",
-    wiki: "https://xenosaga.fandom.com/wiki/Abel",
+    wiki: "https://www.xenoserieswiki.org/wiki/Abel_(XS)",
     opts: {
       role: ["npc"],
       series: ["XS"]
@@ -645,7 +645,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "U-DO",
     img: "XS-U-DO.gif",
-    wiki: "https://xenosaga.fandom.com/wiki/U-DO",
+    wiki: "https://www.xenoserieswiki.org/wiki/U-DO",
     opts: {
       role: ["npc"],
       series: ["XS"],
