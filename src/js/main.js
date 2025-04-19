@@ -114,6 +114,7 @@ function init() {
   const pairs = 3
   const randomNum = Math.floor(Math.random() * pairs)
 
+  // TODO: change this to array of paired images so that the names don't have to be so precise
   document.querySelector('.left.sort.image').src = directoryPath + "L" + randomNum + ".png";
   document.querySelector('.right.sort.image').src = directoryPath + "R" + randomNum + ".png";
 
@@ -298,6 +299,7 @@ function display() {
 
   if (skipCheck(leftChar, rightChar)) return;
 
+  // TODO: Add submitted Cross condition
   const charNameDisp = (name, wiki) => {
     const charName = reduceTextWidth(name, 'Arial 12.8px', 220);
     const charTooltip = name !== charName ? name : '';
@@ -306,11 +308,10 @@ function display() {
 
   progressBar(`Battle No. ${battleNo}`, percent);
 
-  // TODO: RANDOM IMG OR SPOILER IMG
-  document.querySelector('.left.sort.image').src = leftChar.img;
-  document.querySelector('.right.sort.image').src = rightChar.img;
-
+  // TODO: SPOILER IMG
   
+  document.querySelector('.left.sort.image').src = leftChar.imgs[Math.floor(Math.random() * leftChar.imgs.length)];
+  document.querySelector('.right.sort.image').src = rightChar.imgs[Math.floor(Math.random() * rightChar.imgs.length)];
 
   document.querySelector('.left.sort.text').innerHTML = charNameDisp(leftChar.name, leftChar.wiki);
   document.querySelector('.right.sort.text').innerHTML = charNameDisp(rightChar.name, rightChar.wiki);
@@ -527,6 +528,19 @@ function progressBar(indicator, percentage) {
 }
 
 /**
+ * Cycles through available character images.
+ * 
+ * @param {*} img 
+ */
+function nextImage(img) {
+  const rank = parseInt(img.getAttribute('data-rank'));
+  const currentIndex = parseInt(img.getAttribute('data-currentIndex'));
+  const newIndex = (currentIndex + 1) % finalCharacters[rank - 1].imgs.length;
+  img.src = finalCharacters[rank - 1].imgs[newIndex];
+  img.setAttribute("data-currentIndex", newIndex);
+}
+
+/**
  * Shows the result of the sorter.
  * 
  * @param {number} [imageNum=10] Number of images to display. Defaults to 10.
@@ -546,7 +560,8 @@ function result(imageNum = 10) {
   const imgRes = (char, num) => {
     const charName = reduceTextWidth(char.name, 'Arial 12px', 160);
     const charTooltip = char.name !== charName ? char.name : '';
-    return `<div class="result image"><div class="left"><span>${num}</span></div><div class="right"><img src="${char.img}"><div><span title="${charTooltip}">${charName}</span></div></div></div>`;
+    const currentIndex = Math.floor(Math.random() * char.imgs.length);
+    return `<div class="result image"><div class="left"><span>${num}</span></div><div class="right" title="Click to cycle through images!"><img src="${char.imgs[currentIndex]}" data-rank=${num} data-currentIndex=${currentIndex} onclick="nextImage(this)"><div><span title="${charTooltip}">${charName}</span></div></div></div>`;
   }
   const res = (char, num) => {
     const charName = reduceTextWidth(char.name, 'Arial 12px', 160);
@@ -573,7 +588,7 @@ function result(imageNum = 10) {
     } else {
       resultTable.insertAdjacentHTML('beforeend', res(character, rankNum));
     }
-    finalCharacters.push({ rank: rankNum, name: character.name });
+    finalCharacters.push({ rank: rankNum, name: character.name, imgs: character.imgs });
 
     if (idx < characterDataToSort.length - 1) {
       if (tiedDataList[characterIndex] === finalSortedIndexes[idx + 1]) {
@@ -826,24 +841,25 @@ function decodeQuery(queryString = window.location.search.slice(1)) {
  * Preloads images in the filtered character data and converts to base64 representation.
 */
 function preloadImages() {
-  const totalLength = characterDataToSort.length;
+  let totalLength = 0;
+  characterDataToSort.forEach(char => totalLength += char.imgUrls.length);
   let imagesLoaded = 0;
-
+  
   const loadImage = (src, idx) => {
-      return new Promise((resolve, reject) => {
-          const img = new Image();
+    return new Promise((resolve, reject) => {
+      const img = new Image();
 
-          img.crossOrigin = 'Anonymous';
-          img.onload = () => {
-            setImageToData(img, idx);
-            resolve(img);
-          };
-          img.onerror = img.onabort = () => reject(src);
-          if ( img.complete || img.complete === undefined ) {
-            img.src = src;
-          }
-          img.src = src;
-      });
+      img.crossOrigin = 'Anonymous';
+      img.onload = () => {
+        setImageToData(img, idx);
+        resolve(img);
+      };
+      img.onerror = img.onabort = () => reject(src);
+      if ( img.complete || img.complete === undefined ) {
+        img.src = src;
+      }
+      img.src = src;
+    });
   };
 
   const setImageToData = (img, idx) => {
@@ -851,11 +867,12 @@ function preloadImages() {
     canvas.width = img.naturalWidth;
     canvas.height = img.naturalHeight;
     canvas.getContext('2d').drawImage(img, 0, 0);
-    characterDataToSort[idx].img = canvas.toDataURL();
+    if (characterDataToSort[idx].imgs === undefined) characterDataToSort[idx].imgs = [];
+    characterDataToSort[idx].imgs.push(canvas.toDataURL());
     progressBar(`Loading Image ${++imagesLoaded}`, Math.floor(imagesLoaded * 100 / totalLength));
   };
 
-  const promises = characterDataToSort.map((char, idx) => loadImage(imageRoot + char.img, idx));
+  const promises = characterDataToSort.map((char, idx) => Promise.all(char.imgUrls.map((img) => loadImage(imageRoot + img, idx))));
   return Promise.all(promises);
 }
 

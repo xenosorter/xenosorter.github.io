@@ -1,4 +1,4 @@
-dataSetVersion = "2025-02-26"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2025-04-19"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -1233,7 +1233,7 @@ dataSet[dataSetVersion].characterData = [
     imgUrls: ["XCX-Ga Jiarg.png"],
     wiki: "https://www.xenoserieswiki.org/wiki/Ga_Jiarg",
     opts: {
-      role: ["npc"],
+      role: ["npc", "xdeblade"],
       series: ["XCX", "XCXDE"]
     }
   },
@@ -1288,7 +1288,7 @@ dataSet[dataSetVersion].characterData = [
     wiki: "https://www.xenoserieswiki.org/wiki/Neilnail_(character)",
     opts: {
       role: ["xdeblade"],
-      series: ["XCX", "XCXDE"]
+      series: ["XCXDE"]
     }
   },
   {
@@ -1297,7 +1297,27 @@ dataSet[dataSetVersion].characterData = [
     wiki: "https://www.xenoserieswiki.org/wiki/Liesel",
     opts: {
       role: ["xdeblade"],
-      series: ["XCX", "XCXDE"]
+      series: ["XCXDE"]
+    }
+  },
+  {
+    name: "Al",
+    imgUrls: ["XCXDE-Al.png"],
+    wiki: "https://www.xenoserieswiki.org/wiki/Al",
+    opts: {
+      role: ["xdeblade"],
+      series: ["XCXDE"],
+      spoiler: true,
+    }
+  },
+  {
+    name: "Void",
+    imgUrls: ["XCXDE-Void.png"],
+    wiki: "https://www.xenoserieswiki.org/wiki/Void",
+    opts: {
+      role: ["majant"],
+      series: ["XCXDE"],
+      spoiler: true,
     }
   },
   // Xenoblade Chronicles 2
