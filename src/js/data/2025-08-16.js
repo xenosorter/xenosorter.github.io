@@ -316,6 +316,15 @@ dataSet[dataSetVersion].characterData = [
       spoiler: true
     }
   },
+  {
+    name: "Shakhan",
+    imgUrls: ["XG-Shakhan.png"],
+    wiki: "https://www.xenoserieswiki.org/wiki/Shakhan",
+    opts: {
+      role: ["minant"],
+      series: ["XG"]
+    }
+  },
   // Xenosaga
   {
     name: "Allen",
