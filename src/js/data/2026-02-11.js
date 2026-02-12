@@ -665,7 +665,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Sergius",
+    name: "Sergius XVII",
     imgUrls: ["XS-Sergius.png"],
     wiki: "https://www.xenoserieswiki.org/wiki/Sergius_XVII",
     opts: {
@@ -1015,6 +1015,33 @@ dataSet[dataSetVersion].characterData = [
     wiki: "https://www.xenoserieswiki.org/wiki/Vanderkam",
     opts: {
       role: ["minant"],
+      series: ["XS"]
+    }
+  },
+  {
+    name: "Sergius XIV",
+    imgUrls: ["XS-Sergius XIV.png"],
+    wiki: "https://www.xenoserieswiki.org/wiki/Sergius_XIV",
+    opts: {
+      role: ["minant"],
+      series: ["XS"]
+    }
+  },
+  {
+    name: "Joaquin",
+    imgUrls: ["XS-Joaquin.png"],
+    wiki: "https://www.xenoserieswiki.org/wiki/Joaquin_Rozas",
+    opts: {
+      role: ["npc"],
+      series: ["XS"]
+    }
+  },
+  {
+    name: "Sean McCallum",
+    imgUrls: ["XS-McCallum.png"],
+    wiki: "https://www.xenoserieswiki.org/wiki/Sean_McCallum",
+    opts: {
+      role: ["npc"],
       series: ["XS"]
     }
   },
