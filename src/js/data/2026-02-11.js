@@ -2483,9 +2483,9 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Stannis",
-    imgUrls: ["TGC-Stannis.png"],
-    wiki: "https://www.xenoserieswiki.org/wiki/Stannis",
+    name: "Stannif",
+    imgUrls: ["TGC-Stannif.png"],
+    wiki: "https://www.xenoserieswiki.org/wiki/Stannif",
     opts: {
       role: ["minant"],
       series: ["TGC"]
